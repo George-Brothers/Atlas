@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Long-form lesson markdown (rendered by app/lesson/[id]/markdown.tsx). No
+   typography plugin dependency — just readable defaults that work in light and
+   dark. */
+.prose-atlas {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgb(63 63 70); /* zinc-700 */
+}
+@media (prefers-color-scheme: dark) {
+  .prose-atlas {
+    color: rgb(212 212 216); /* zinc-300 */
+  }
+}
+.prose-atlas p {
+  margin: 0 0 1rem;
+}
+.prose-atlas p:last-child {
+  margin-bottom: 0;
+}
+.prose-atlas ul,
+.prose-atlas ol {
+  margin: 0 0 1rem;
+  padding-left: 1.5rem;
+}
+.prose-atlas ul {
+  list-style: disc;
+}
+.prose-atlas ol {
+  list-style: decimal;
+}
+.prose-atlas li {
+  margin: 0.25rem 0;
+}
+.prose-atlas strong {
+  font-weight: 600;
+  color: rgb(24 24 27);
+}
+@media (prefers-color-scheme: dark) {
+  .prose-atlas strong {
+    color: rgb(244 244 245);
+  }
+}
+.prose-atlas code {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 0.85em;
+  background: rgb(244 244 245);
+  padding: 0.1em 0.35em;
+  border-radius: 0.25rem;
+}
+@media (prefers-color-scheme: dark) {
+  .prose-atlas code {
+    background: rgb(39 39 42);
+  }
+}
+.prose-atlas pre {
+  background: rgb(244 244 245);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 0 0 1rem;
+}
+@media (prefers-color-scheme: dark) {
+  .prose-atlas pre {
+    background: rgb(24 24 27);
+  }
+}
+.prose-atlas pre code {
+  background: transparent;
+  padding: 0;
+}
+.prose-atlas h2,
+.prose-atlas h3 {
+  font-weight: 600;
+  color: rgb(24 24 27);
+  margin: 1.25rem 0 0.5rem;
+}
+@media (prefers-color-scheme: dark) {
+  .prose-atlas h2,
+  .prose-atlas h3 {
+    color: rgb(244 244 245);
+  }
+}
+.prose-atlas table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  display: block;
+  overflow-x: auto;
+}
+.prose-atlas th,
+.prose-atlas td {
+  border: 1px solid rgb(228 228 231);
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+}
+@media (prefers-color-scheme: dark) {
+  .prose-atlas th,
+  .prose-atlas td {
+    border-color: rgb(63 63 70);
+  }
+}
+.prose-atlas th {
+  background: rgb(244 244 245);
+  font-weight: 600;
+}
+@media (prefers-color-scheme: dark) {
+  .prose-atlas th {
+    background: rgb(39 39 42);
+  }
+}
+.prose-atlas a {
+  color: rgb(29 78 216);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+@media (prefers-color-scheme: dark) {
+  .prose-atlas a {
+    color: rgb(96 165 250);
+  }
+}
