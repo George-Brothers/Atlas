@@ -17,10 +17,10 @@ it is grading, and an eval gate that has to pass before the grading model can be
 swapped.
 
 ## Heres some screenshots of it in action:
-<img width="1917" height="967" alt="Screenshot 2026-07-19 211735" src="https://github.com/user-attachments/assets/3195a644-4a18-4aed-abb5-24d9989a8a9f" />
-<img width="1917" height="1197" alt="Screenshot 2026-07-19 211756" src="https://github.com/user-attachments/assets/38ab3ba2-e933-4d7c-bac3-41263d13baae" />
-<img width="1476" height="736" alt="Screenshot 2026-07-19 211808" src="https://github.com/user-attachments/assets/1d76884e-a072-4072-97e9-84a8b0988441" />
-<img width="577" height="742" alt="Screenshot 2026-07-19 212007" src="https://github.com/user-attachments/assets/eba4f988-d919-4b55-b877-5751676c6aed" />
+<img width="1341.9" height="676.9" alt="Screenshot 2026-07-19 211735" src="https://github.com/user-attachments/assets/3195a644-4a18-4aed-abb5-24d9989a8a9f" />
+<img width="1341.9" height="837.9" alt="Screenshot 2026-07-19 211756" src="https://github.com/user-attachments/assets/38ab3ba2-e933-4d7c-bac3-41263d13baae" />
+<img width="1033.2" height="515.2" alt="Screenshot 2026-07-19 211808" src="https://github.com/user-attachments/assets/1d76884e-a072-4072-97e9-84a8b0988441" />
+<img width="288.5" height="371" alt="Screenshot 2026-07-19 212007" src="https://github.com/user-attachments/assets/eba4f988-d919-4b55-b877-5751676c6aed" />
 
 
 ## The learning loop
