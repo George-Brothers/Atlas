@@ -1,6 +1,6 @@
 # atlas
 
-A private, single-user web app that teaches how large language models actually
+A web app that teaches how large language models actually
 work, then makes you prove you learned it before it moves on.
 
 The curriculum is a ten-topic spine that runs from **tokens & embeddings** up to
